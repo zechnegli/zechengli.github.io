@@ -203,14 +203,10 @@ section.success {
   margin-bottom: 0px;
 }
 .portfolio-openPriserow {
-  margin-bottom: 100px;
+  margin-bottom: 150px;
   height: 900px;
 }
 
-.portfolio-openPriserowh2 {
-  margin-bottom: 20px;
-  align: center;
-}
 
 #portfoliorow {
   margin-bottom: 40px;
@@ -243,7 +239,7 @@ section.success {
 
 .portfolio-row h2 {
   font-family: Avenir-Roman;
-  font-size: 35px;
+  font-size: 40px;
   color: rgb(100, 100,100);
   display: inline;
   margin-left: 30px;
@@ -253,7 +249,7 @@ section.success {
 .portfolio-row h3 {
   text-transform: default;
   font-family: Avenir-Heavy;
-  font-size: 20px;
+  font-size: 30px;
   color: #e73c3c;
   text-align: left;
   margin-bottom: 20px;
@@ -329,6 +325,19 @@ section.success {
 
 #portfolio * {
     z-index: 2;
+}
+.portfolio-openPriserowh2 {
+  margin-bottom: 20px;
+  align: center;
+}
+
+.portfolio-openPriserowh3 {
+  text-transform: default;
+  font-family: Avenir-Heavy;
+  font-size: 30px;
+  color: #e73c3c;
+  text-align: left;
+  margin-bottom: 20px;
 }
 
 

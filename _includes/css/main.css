@@ -202,6 +202,9 @@ section.success {
 #portfolio-rowDecorHome {
   margin-bottom: 0px;
 }
+.spacing {
+    height: 50px;
+}
 .portfolio-openPriserow {
   margin-bottom: 300px;
   height: 900px;

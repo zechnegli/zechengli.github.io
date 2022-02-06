@@ -243,6 +243,7 @@ section.success {
 }
 #pRow {
     margin-bottom: 30px;
+  
 }
 
 .portfolio-row .portfolio-item {
@@ -269,18 +270,17 @@ section.success {
 
 .portfolio-row h2 {
   font-family: Avenir-Roman;
-  font-size: 40px;
+  font-size: 35px;
   color: rgb(100, 100,100);
   display: inline;
-  margin-left: 30px;
-  vertical-align: middle;
+  margin-left: 16px;
+  vertical-align: left;
 }
 
 .portfolio-row h3 {
   text-transform: default;
   font-family: Avenir-Heavy;
-  font-size: 30px;
-  color: #e73c3c;
+  font-size: 28px;
   text-align: left;
   margin-bottom: 20px;
 }
@@ -307,7 +307,7 @@ section.success {
   line-height: 200%;
   margin-top: 10px;
   margin-bottom: 10px;
-  color: rgb(60, 60, 60);
+  color: #919191;
 }
 
 

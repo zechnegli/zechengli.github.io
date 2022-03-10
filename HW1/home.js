@@ -16,7 +16,7 @@ fetch("/HW1/data.JSON")
         this.renderSection4(section4DataArr);
     })
 
-//[ {"id":1,"name":"January"}, {"id":2,"name":"February"} ]
+
 function renderSection2(datas) {
 //    console.log(datas);
     var mytable = document.getElementById("section2-table");

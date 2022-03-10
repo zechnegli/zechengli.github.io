@@ -3,7 +3,9 @@
 }
 
 //window.location="Category.html";
-fetch("/HW1/data.JSON")
+fetch("./data.JSON", {
+  mode: 'no-cors' // 'cors' by default
+})
    .then(res => res.json())
      .then(function (apiJsonData) {
         var section2DataArr = Object.values(apiJsonData.section2);

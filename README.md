@@ -1,1 +1,1 @@
-Zecheng Li Resume  https://zechnegli.github.io/webTech
+Zecheng Li Resume  https://zechnegli.github.io/webTec

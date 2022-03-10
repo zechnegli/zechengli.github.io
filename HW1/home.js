@@ -3,10 +3,8 @@
 }
 
 //window.location="Category.html";
-fetch("./data.JSON", {
-  mode: 'no-cors' // 'cors' by default
-})
-   .then(res => res.json())
+fetch("https://raw.githubusercontent.com/zechnegli/zechnegli.github.io/master/HW1/data.json")
+    .then(res => res.json())
      .then(function (apiJsonData) {
         var section2DataArr = Object.values(apiJsonData.section2);
         this.renderSection2(section2DataArr);

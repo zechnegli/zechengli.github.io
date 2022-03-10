@@ -3,7 +3,7 @@
 }
 
 //window.location="Category.html";
-fetch("./data.JSON")
+fetch("/HW1/data.JSON")
    .then(res => res.json())
      .then(function (apiJsonData) {
         var section2DataArr = Object.values(apiJsonData.section2);
